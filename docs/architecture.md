@@ -136,6 +136,23 @@ The objective is not merely deception.
 
 The objective is to create enough controlled temporal space for defensive observation, analysis, containment, and response.
 
+Unlike traditional defensive systems focused primarily on rapid detection and blocking, ASD treats interaction itself as a defensive resource.
+
+ASD does not necessarily attempt to immediately terminate observer interaction.
+
+Instead, the architecture attempts to:
+- sustain controlled interaction
+- shape observer assumptions
+- redirect exploration
+- delay confident escalation
+- consume adversarial attention and operational resources
+- increase uncertainty
+- extend defensive reaction windows
+
+The objective is not passive defense.
+
+The objective is controlled active-defense interaction inside bounded semantic environments.
+
 ## Design Principles
 
 1. The observer's belief state is the primary control surface.
