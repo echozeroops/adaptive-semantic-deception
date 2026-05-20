@@ -117,6 +117,8 @@ The project is intentionally being developed incrementally, with emphasis on:
 - controlled system evolution
 - explainable defensive behavior
 
+- 
+
 - ## Discussion & Feedback
 
 ASD is an evolving research architecture.
