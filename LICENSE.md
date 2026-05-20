@@ -22,9 +22,12 @@ Commercial use requires explicit permission from the author.
 SPDX-License-Identifier: CC-BY-NC-4.0
 
 For licensing inquiries:
-echozero@riseup.net 3echo@echozeroops.com
+echozero@riseup.net  3echo@echozeroops.com
 
 Copyright (c) 2026 echozeroops
+
+
+
 
 
 
