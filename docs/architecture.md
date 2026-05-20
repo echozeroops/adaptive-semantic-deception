@@ -123,6 +123,19 @@ ASD is not designed for unauthorized access, exploitation, intrusion, or offensi
 
 ---
 
+One of the operational goals of ASD is defensive time acquisition.
+
+By maintaining controlled semantic environments and managing observer perception, ASD attempts to:
+- slow hostile progression
+- delay confident decision-making
+- increase exploratory uncertainty
+- reduce rapid escalation
+- extend defensive reaction windows
+
+The objective is not merely deception.
+
+The objective is to create enough controlled temporal space for defensive observation, analysis, containment, and response.
+
 ## Design Principles
 
 1. The observer's belief state is the primary control surface.
