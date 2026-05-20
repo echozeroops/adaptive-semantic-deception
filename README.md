@@ -1,8 +1,8 @@
 # Adaptive Semantic Deception (ASD)
 
-Architecture for active semantic defense through observer-state reconstruction and adaptive projection-world management.
-
 ![ASD Banner](assets/asd-banner.png)
+
+Architecture for active semantic defense through observer-state reconstruction and adaptive projection-world management.
 
 ---
 
