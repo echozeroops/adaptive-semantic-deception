@@ -117,6 +117,23 @@ The project is intentionally being developed incrementally, with emphasis on:
 - controlled system evolution
 - explainable defensive behavior
 
+- ## Discussion & Feedback
+
+ASD is an evolving research architecture.
+
+Constructive discussion, critical analysis, architectural feedback, and alternative perspectives are welcome.
+
+The project is intentionally being developed incrementally and openly, with emphasis on:
+- semantic consistency
+- defensive safety
+- architectural coherence
+- observer-state modeling
+- adaptive semantic systems
+
+Contributions are not limited to implementation ideas.
+
+Conceptual critique, threat analysis, consistency challenges, and architectural discussion are equally valuable.
+
 ---
 
 ## License
