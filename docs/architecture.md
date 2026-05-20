@@ -113,6 +113,120 @@ ASD uses this object to decide whether the observer should be reinforced, redire
 
 ---
 
+---
+
+## AI Orchestration Core
+
+AI is a central reasoning component in ASD, but it is not the security boundary.
+
+The AI Orchestration Core is responsible for semantic reasoning tasks such as:
+- interpreting ObserverModel state
+- reconstructing ReconstructedHypothesis
+- proposing IllusionStrategy
+- assisting with projection planning
+- supporting adaptive narrative control
+- generating candidate artifacts for ProjectionWorld
+
+AI is used because deterministic rules alone are not sufficient for reconstructing observer belief states or planning coherent semantic projection paths.
+
+However, AI must operate inside strict isolation.
+
+---
+
+## Defensive Root Environment
+
+ASD requires a separated defensive root environment.
+
+The defensive root environment contains the real operational truth of the system and must remain isolated from ProjectionWorld.
+
+This root environment may include:
+- real infrastructure state
+- defensive policies
+- RealityBoundary enforcement
+- SafetyBoundary logic
+- telemetry and DecisionTrace storage
+- allowlisted snapshots for AI reasoning
+
+ProjectionWorld must never be allowed to directly access or modify the defensive root environment.
+
+---
+
+## AI Isolation Principle
+
+AI must never receive direct access to real operational assets.
+
+AI should only receive allowlisted, read-only context such as:
+- ObserverModel
+- ProjectionWorld snapshot
+- ExposureBudget state
+- selected DecisionTrace context
+- sanitized semantic constraints
+
+AI must not receive:
+- real infrastructure configuration
+- privileged operational data
+- secret topology
+- raw defensive control state
+- unrestricted telemetry
+- RealityBoundary internals
+
+If AI can access the real environment, then compromise or failure of the AI layer may become compromise of the Truth Core.
+
+---
+
+## Deterministic Safety Boundary
+
+SafetyBoundary and RealityBoundary must be implemented as deterministic, testable system components.
+
+They must not exist only as AI instructions or prompt rules.
+
+A prompt such as:
+
+> do not reveal real data
+
+is not a security boundary.
+
+A real boundary must be enforced by code, validation, allowlists, deny rules, and auditable checks outside the AI layer.
+
+All AI outputs must pass through:
+- SafetyBoundary validation
+- RealityBoundary validation
+- ExposureBudget validation
+- semantic consistency checking
+- forbidden-pattern checking
+
+Only validated outputs may update ProjectionWorld or become emitted artifacts.
+
+---
+
+## Environment Separation Model
+
+```text
+DEFENSIVE ROOT ENVIRONMENT
+(real state, policies, telemetry, boundaries)
+        │
+        │ allowlisted read-only snapshots
+        ▼
+AI ORCHESTRATION CORE
+(semantic reasoning, hypothesis reconstruction, strategy proposal)
+        │
+        │ validated candidate actions
+        ▼
+SAFETY / REALITY BOUNDARY
+(deterministic validation and enforcement)
+        │
+        │ approved projection updates
+        ▼
+PROJECTION WORLD
+(controlled semantic environment observed by the observer)
+```
+
+The observer interacts only with ProjectionWorld.
+
+AI reasons only over sanitized snapshots.
+
+The defensive root environment remains isolated and authoritative.
+
 ## Defensive Nature
 
 ASD is an active-defense architecture.
